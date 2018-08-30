@@ -1,0 +1,91 @@
+/* --------------------
+        Hero
+-------------------- */
+.hero {
+    background-image: url(images/wraith.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* --------------------
+        Hero-Head
+-------------------- */
+.navbar {
+    height: 4.50rem;
+}
+
+.navbar-item img {
+    max-height: 3.50rem;
+}
+
+.navbar-menu {
+    justify-content: center;
+    z-index: -1;
+}
+
+.navbar-link::after {
+    border-color: rgba(0,0,0,0.3);
+}
+
+.navbar-item.has-dropdown:hover .navbar-link {
+    background-color: rgba(255,255,255,1);
+}
+
+.navbar-dropdown {
+    background-color: rgba(255,255,255,0.5);
+    right: 0;
+    left: auto;
+}
+
+.navbar-dropdown.is-boxed {
+    border-radius: 0;
+    top: 100%;
+}
+
+.navbar-item,
+.navbar-link {
+    color: rgba(0,0,0,0.9);
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+}
+
+a.navbar-item:hover {
+    color: rgba(0,0,0,0.5);
+    background-color: rgba(255,255,255,0.0);
+}
+
+.navbar-brand a.navbar-item {
+    color: rgba(0,0,0,0.9);
+}
+
+.navbar-item.active {
+    background-color: rgba(255,255,255,0.5);
+}
+
+.navbar-item.active:hover {
+    background-color: rgba(255,255,255,0.5);
+}
+
+.navbar-item.is-size-4 {
+    text-transform: none;
+    letter-spacing: 0.1rem;
+}
+
+.navbar-link:hover {
+    color: rgba(0,0,0,0.9);
+}
+
+
+/* --------------------
+        Hero-Head-Mobile
+-------------------- */
+.navbar-burger {
+    height: 4.50rem;
+    color: rgba(0,0,0,0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
