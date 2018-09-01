@@ -289,10 +289,10 @@ input.input {
     }
 
     .hero {
-        min-height: 60vh !important;
+        min-height: 80vh !important;
         background-size: cover;
         background-position: center;
-        background-image: url(images/wraith-mob.jpg)
+        /* background-image: url(images/wraith-mob.jpg) */
     }
 
     .video {
@@ -301,5 +301,9 @@ input.input {
 
     .footer .has-text-right * {
         font-size: 1.8rem !important;
+    }
+
+    .center-form {
+        width: auto;
     }
 }
