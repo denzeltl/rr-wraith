@@ -1,13 +1,25 @@
 /* --------------------
+        General
+-------------------- */
+body {
+    font-family: Nunito, Helvetica, sans-serif;
+    background-color: #F8F8F8;
+}
+
+#main-a,
+.footer {
+    color: #363636;
+}
+
+/* --------------------
         Hero
 -------------------- */
 .hero {
-    background-image: url(images/wraith.jpg);
-    background-repeat: no-repeat;
+    background-image: url(images/wraith2.jpg);
+    /* background-repeat: no-repeat; */
     background-size: cover;
     background-position: center;
 }
-
 
 /* --------------------
         Hero-Head
@@ -26,15 +38,15 @@
 }
 
 .navbar-link::after {
-    border-color: rgba(0,0,0,0.3);
+    border-color: rgba(0, 0, 0, 0.3);
 }
 
 .navbar-item.has-dropdown:hover .navbar-link {
-    background-color: rgba(255,255,255,1);
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .navbar-dropdown {
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     right: 0;
     left: auto;
 }
@@ -46,27 +58,27 @@
 
 .navbar-item,
 .navbar-link {
-    color: rgba(0,0,0,0.9);
+    color: rgba(0, 0, 0, 0.9);
     text-transform: uppercase;
     font-size: 0.8rem;
     letter-spacing: 0.1rem;
 }
 
 a.navbar-item:hover {
-    color: rgba(0,0,0,0.5);
-    background-color: rgba(255,255,255,0.0);
+    color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.0);
 }
 
 .navbar-brand a.navbar-item {
-    color: rgba(0,0,0,0.9);
+    color: rgba(0, 0, 0, 0.9);
 }
 
 .navbar-item.active {
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .navbar-item.active:hover {
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .navbar-item.is-size-4 {
@@ -75,17 +87,219 @@ a.navbar-item:hover {
 }
 
 .navbar-link:hover {
-    color: rgba(0,0,0,0.9);
+    color: rgba(0, 0, 0, 0.9);
 }
-
 
 /* --------------------
         Hero-Head-Mobile
 -------------------- */
 .navbar-burger {
     height: 4.50rem;
-    color: rgba(0,0,0,0.9);
+    color: rgba(0, 0, 0, 0.9);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* --------------------
+        Hero-Body
+-------------------- */
+.hero.is-fullheight .hero-body {
+    align-items: flex-start;
+}
+
+.hero-body .subtitle {
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+}
+
+.hero-body .title {
+    text-transform: uppercase;
+    letter-spacing: 2rem;
+    font-weight: 400;
+}
+
+/* --------------------
+        Hero-Foot
+-------------------- */
+.reserve-button {
+    width: 13rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    bottom: 6rem;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    transition: 0.3s;
+    font-weight: 700;
+}
+
+.reserve-button:hover {
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.8);
+    transition: 0.3s;
+}
+
+/* --------------------
+        Main-A
+-------------------- */
+#main-a .content {
+    max-width: 50rem;
+}
+
+#main-a>div {
+    margin-bottom: 3rem;
+}
+
+.table {
+    background-color: #F8F8F8;
+    margin: 0 auto;
+}
+
+.video {
+    width: 100%;
+    position: relative;
+    padding-top: 41%;
+    margin-top: 3rem;
+    height: 0;
+}
+
+#ytube {
+    top: 0;
+    left: 0;
+    position: absolute;
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+.figcaption {
+    padding-top: 1rem;
+}
+
+/* --------------------
+        Main-B
+-------------------- */
+hr {
+    margin-top: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    margin-bottom: 3rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#subscribe {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 92%;
+    margin: 0 auto;
+}
+
+input.input {
+    width: 30rem;
+}
+
+.input:active {
+    border-color: rgba(0, 0, 0, 0.5);
+    box-shadow: none;
+}
+
+.input:focus {
+    border-color: rgba(0, 0, 0, 0.5);
+    box-shadow: none;
+}
+
+.center-form {
+    margin: 0 auto;
+    width: 30rem;
+}
+
+
+
+.button-newsletter {
+    margin: 0 auto;
+    width: 13rem;
+}
+
+.newsletter-button {
+    width: 13rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    transition: 0.3s;
+    font-weight: 700;
+    border-radius: 290486px;
+    padding-left: 1em;
+    padding-right: 1em;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+    white-space: nowrap;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: none;
+    display: inline-flex;
+    height: 2.7rem;
+    line-height: 1.5;
+    position: relative;
+    vertical-align: top;
+}
+
+.newsletter-button:hover {
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.8);
+    transition: 0.3s;
+}
+
+/* --------------------
+        Media
+-------------------- */
+.footer {
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.footer a {
+    transition: 0.1s;
+    color: #363636;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    margin-right: 2rem;
+    display: inline-block;
+}
+
+.footer a:hover {
+    transition: 0.1s;
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: underline;
+}
+
+/* --------------------
+        Media
+-------------------- */
+@media screen and (max-width: 700px) {
+    * {
+        font-size: 12px !important;
+    }
+
+    .hero-body .title {
+        letter-spacing: 1.3rem;
+    }
+
+    .hero {
+        min-height: 60vh !important;
+        background-size: cover;
+        background-position: center;
+        background-image: url(images/wraith-mob.jpg)
+    }
+
+    .video {
+        padding-top: 57%;
+    }
+
+    .footer .has-text-right * {
+        font-size: 1.8rem !important;
+    }
 }

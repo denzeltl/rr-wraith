@@ -2,11 +2,11 @@
 
 My take on freeCodeCamp's [Responsive Web Design Projects - Build a Product Landing Page](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page)
 
-_*Made with [Bulma](https://bulma.io/)_
-
 View [here](https://denzeltl.github.io/rr-wraith/)
 
-**Completed on:** *08/xx/2018*
+**Completed on:** *09/01/2018*
+
+_*Made with [Bulma](https://bulma.io/)_
 
 ___
 
